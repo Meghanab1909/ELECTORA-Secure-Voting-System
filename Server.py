@@ -10,13 +10,13 @@ import csv
 import ssl
 import warnings
 
-SERVER_HOST = "0.0.0.0"
-SERVER_PORT = 12345
+SERVER_HOST = "0.0.0.0" #0.0.0.0 signifies that server can accept all client connections
+SERVER_PORT = <replace_with_server_port>
 
 connect = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password = "412356",
+    password = "<replace_with_sql_password",
     database = "secure_vote_db",
     charset = 'utf8mb4',
     collation = 'utf8mb4_unicode_ci'
@@ -47,8 +47,8 @@ def start_server():
     
     context = ssl.SSLContext(ssl.PROTOCOL_TLSv1_2)
 
-    context.load_cert_chain(certfile = "C:\\Users\\ramab\\Desktop\\PES\\SEM 4\\CN\\Mini Project 2\\server.crt", 
-                            keyfile = "C:\\Users\\ramab\\Desktop\\PES\\SEM 4\\CN\\Mini Project 2\\server.key")
+    context.load_cert_chain(certfile = "<path_to_crt_file>", 
+                            keyfile = "<path_to_key_file>")
 
     while True:
         client_socket, client_address = server_socket.accept()
@@ -161,12 +161,12 @@ def check_voter(voter_data):
                 recipient_email = voter_data['email']
                 otp1 = generate_otp()
 
-                sender_email = "electora.securevote@gmail.com"
-                sender_password = "jhhe ehco wamv zqax"
+                sender_email = "<replace_with_sender_email_id>"
+                sender_password = "<replace_with_app_password>"
 
-                account_sid = 'AC4a6a0830a7b4badaa96f8d019dd6ff75'
-                auth_token = '3e4eecb0fc3330f60d945ec7a7fedea7'
-                twilio_phone_number = '+16203495737'
+                account_sid = '<replace_with_twilio_account_sid>'
+                auth_token = '<replace_with_twilio_auth_token>'
+                twilio_phone_number = '<replace_with_twilio_phonenumber>'
 
                 otp2 = generate_otp()
 
