@@ -1,6 +1,5 @@
 ## Project Overview
 Electora is a Secure Voting System implemented in Python Tkinter using Socket Programming. This project uses TCP socket as TCP prioritizes reliability over speed of transmission. 
-<br>
 
 ## Prequisites
 1. Python
@@ -10,12 +9,10 @@ Electora is a Secure Voting System implemented in Python Tkinter using Socket Pr
 5. Twilio (Create a twilio account, video reference: https://www.youtube.com/watch?v=-fqGGqXHQ2E&pp=ygUGdHdpbGlv)
 6. OpenSSL
 7. Numpy and Matplotlib
-<br>
 
 ## Before Running the Project
 1. Download the project files in this repository
 2. Generate csr, crt and key files. Check the code and do the necessary additions. The parts where the additions are to be made are highlighted.
-<br>
 
 ## Run the project
 <br>(Please run the project in the following sequence)
