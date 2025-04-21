@@ -18,7 +18,7 @@ securityQuestion = StringVar()
 connect = mysql.connector.connect(
       host = "localhost",
       user = "root",
-      password = "412356",
+      password = "<replace_with_sql_password>",
       database = "secure_vote_db"
   )
 
