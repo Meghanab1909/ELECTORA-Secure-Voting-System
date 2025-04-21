@@ -7,8 +7,8 @@ import os
 import ast
 import ssl
 
-SERVER_HOST = "MSB"
-SERVER_PORT = 12345
+SERVER_HOST = "<replace_with_server_hostname>"
+SERVER_PORT = <replace_with_server_port>
 
 root = Tk()
 root.geometry("1150x764")
