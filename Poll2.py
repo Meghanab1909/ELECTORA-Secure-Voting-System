@@ -99,7 +99,7 @@ def end_poll(WINNER):
       connect = mysql.connector.connect(
         host = "localhost",
         user = "root",
-        password = "412356",
+        password = "<replace_with_your_sql_password>",
         database = "secure_vote_db"
       )
 
@@ -147,8 +147,8 @@ def end_poll(WINNER):
     threading.Thread(target = send_emails).start()
 
   try:
-    server_host = "MSB"
-    server_port = 12345
+    server_host = "<replace_with_server_hostname>"
+    server_port = <replace_with_server_port>
 
     client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
@@ -230,8 +230,8 @@ def display_live_stats():
   refresh_graph()
     
 def send_to_server(poll_data):
-  SERVER_HOSTNAME = "MSB"
-  SERVER_PORT = 12345
+  SERVER_HOSTNAME = "<replace_with_server_hostname>"
+  SERVER_PORT = <replace_with_server_port>
   
   try:
     SERVER_IP = socket.gethostbyname(SERVER_HOSTNAME)
