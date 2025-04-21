@@ -2,7 +2,6 @@
 Electora is a Secure Voting System implemented in Python Tkinter using Socket Programming. This project uses TCP socket as TCP prioritizes reliability over speed of transmission. 
 <br>
 
-
 ## Prequisites
 1. Python
 2. Tkinter
