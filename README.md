@@ -14,6 +14,7 @@ Electora is a Secure Voting System implemented in Python Tkinter using Socket Pr
         <li>Checks SQL database to verify and authenticate</li>
         <li>Necessary validations are present</li>
       </ol>
+      <img style = "width: 435px; height: 250px;" src = "Poll1.png" />
     </td>
   </tr>
     <tr>
@@ -30,6 +31,7 @@ Electora is a Secure Voting System implemented in Python Tkinter using Socket Pr
         <li>Keeps track of poll time. If poll time is exceeded then the poll is terminated automatically with the results being sent to registered voters.</li>
         <li>Necessary validations are present</li>
       </ol>
+        <img style = "width: 435px; height: 250px;" src = "Poll2.png" />
       </td>
     </tr>
   <tr>
@@ -61,6 +63,7 @@ Electora is a Secure Voting System implemented in Python Tkinter using Socket Pr
         <li>Vote is submitted</li>
         <li>Necessary validations are present</li>
       </ol>
+      <img style = "width: 435px; height: 250px;" src = "voter.png" />
     </td>
   </tr>
 </table>
@@ -82,7 +85,8 @@ Electora is a Secure Voting System implemented in Python Tkinter using Socket Pr
 (Please run the project in the following sequence)
 1. Server.py
 2. Poll1.py (On the poll admin getting authenticated, Poll2.py shall open)
-3. _Once the poll is made_, Voter.py
+3. _Once the poll is made_, Voter.py<br><br>
+Server.py -> Poll1.py -> (Poll2.py should open after poll admin is authenticated) -> voter.py
 
 *Note: To get a better understanding of the project, kindly watch the screen recording of the project (project.mp4) uploaded in the repository. If the video is not being displayed/loaded on github please download it*
 
