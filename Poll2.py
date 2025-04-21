@@ -114,7 +114,7 @@ def end_poll(WINNER):
       subject = "Poll Results - "+str(date.today())
       smtp_server = "smtp.gmail.com"
       smtp_port = 587 
-      password = "jhhe ehco wamv zqax"
+      password = "<replace_with_app_password>"
 
       try:
         with smtplib.SMTP(smtp_server, smtp_port) as server:
@@ -178,7 +178,7 @@ def display_live_stats():
   connect = mysql.connector.connect(
     host = "localhost",
     user = "root",
-    password = "412356",
+    password = "<replace_with_sql_password",
     database = "secure_vote_db"
   )
 
