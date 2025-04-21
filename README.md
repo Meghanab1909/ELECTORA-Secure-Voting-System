@@ -14,8 +14,8 @@ Electora is a Secure Voting System implemented in Python Tkinter using Socket Pr
 1. Download the project files in this repository
 2. Generate csr, crt and key files. Check the code and do the necessary additions. The parts where the additions are to be made are highlighted.
 
-## Run the project
-<br>(Please run the project in the following sequence)
+## Run the project<br>
+(Please run the project in the following sequence)
 1. Server.py
 2. Poll1.py (On the poll admin getting authenticated, Poll2.py shall open)
 3. _Once the poll is made_, Voter.py
