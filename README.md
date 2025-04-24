@@ -86,8 +86,10 @@ Electora is a Secure Voting System implemented in Python Tkinter using Socket Pr
 1. Server.py
 2. Poll1.py (On the poll admin getting authenticated, Poll2.py shall open)
 3. _Once the poll is made_, Voter.py<br><br>
-Server.py -> Poll1.py -> (Poll2.py should open after poll admin is authenticated) -> voter.py
-
+Server.py -> Poll1.py -> (Poll2.py should open after poll admin is authenticated) -> voter.py<br><br>
+4. Ideally, the server will be on one laptop and the client will be on another laptop. And since, the hostname of the server is used irrespective of the network, the client and server connection will be established without having it to replace with the IP address everytime there is a network change.
+5. Since threading is used, the server can handle multiple client requests.
+   
 *Note: To get a better understanding of the project, kindly watch the screen recording of the project (project.mp4) uploaded in the repository. If the video is not being displayed/loaded on github please download it*
 
 ## Project Contributors _(In Alphabetical Order)_
