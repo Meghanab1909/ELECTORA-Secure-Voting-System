@@ -1,3 +1,13 @@
+'''
+Project Name: ELECTORA
+Contributors:
+      - Meghana Saisri Bisa
+      - Mitha M K
+Disclaimer: This project is the original work of the contributors listed above. 
+Any unauthorized use, misrepresentation, or submission of this project as someone else’s work constitutes a violation of ethical and academic standards. Proper credit must 
+be given when referencing or utilizing any part of this project.
+'''
+
 from tkinter import *
 from tkinter import messagebox
 from tkinter import ttk
@@ -99,3 +109,12 @@ securityQ_button = Button(root, text = "�", font = ("Calibri", 8), command = s
 login_button = Button(root, text = "  →  ", font = ("Tahoma", 14), bg = "PaleTurquoise2", command = login).place(x = 555, y = 530)
                       
 root.mainloop()
+
+'''
+© 2025 Meghana Saisri Bisa, Mitha M K
+All rights reserved.
+
+This project, ELECTORA, was developed primarily by the contributors listed above, with partial assistance from external resources. Unauthorized copying, redistribution, or misrepresentation of this work is prohibited. 
+
+For use, reference, or distribution, proper attribution is required.
+'''
