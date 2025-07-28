@@ -1,3 +1,13 @@
+'''
+Project Name: ELECTORA
+Contributors:
+      - Meghana Saisri Bisa
+      - Mitha M K
+Disclaimer: This project is the original work of the contributors listed above. 
+Any unauthorized use, misrepresentation, or submission of this project as someone else’s work constitutes a violation of ethical and academic standards. Proper credit must 
+be given when referencing or utilizing any part of this project.
+'''
+
 from tkinter import *
 from tkinter import messagebox
 from PIL import Image, ImageTk
@@ -201,3 +211,12 @@ Entry(root, textvariable=phone_number, font=("Tahoma", 12), bg="white smoke").pl
 Button(root, text="  →  ", font=("Tahoma", 12), bg="PaleTurquoise2", command=login).place(x=555, y=500)
 
 root.mainloop()
+
+'''
+    © 2025 Meghana Saisri Bisa, Mitha M K
+    All rights reserved.
+
+    This project, ELECTORA, was developed primarily by the contributors listed above, with partial assistance from external resources. Unauthorized copying, redistribution, or misrepresentation of this work is prohibited. 
+
+    For use, reference, or distribution, proper attribution is required.
+'''
