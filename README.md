@@ -95,5 +95,5 @@ Server.py -> Poll1.py -> (Poll2.py should open after poll admin is authenticated
 ## Project Contributors _(In Alphabetical Order)_
 1. Meghana Saisri Bisa - github username: Meghanab1909
 
-2. Mitha M K
+2. Mitha M K - github username: mithamk
 
